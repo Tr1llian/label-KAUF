@@ -8,6 +8,7 @@ namespace PortugalLabelPrint
 
     class RawPrinterHelper
     {
+        static int counter = 1;
         // Structure and API declarions:
         [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
         public class DOCINFOA
@@ -48,7 +49,7 @@ namespace PortugalLabelPrint
             DOCINFOA di = new DOCINFOA();
             bool bSuccess = false; // Assume failure unless you specifically succeed.
 
-            di.pDocName = "Label";
+            di.pDocName = $"Label{counter++}";
             di.pDataType = "RAW";
 
             // Open the printer.

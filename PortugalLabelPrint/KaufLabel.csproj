@@ -7,7 +7,7 @@
     <ProjectGuid>{056A87B4-FCC7-432C-8EA5-727698F573C7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PortugalLabelPrint</RootNamespace>
-    <AssemblyName>PortugalLabelPrint</AssemblyName>
+    <AssemblyName>KaufLabel</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
